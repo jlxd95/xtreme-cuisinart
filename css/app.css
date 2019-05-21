@@ -1,0 +1,114 @@
+body{
+	
+}
+
+.grid-x{
+	
+background:transparent;	
+}
+
+.encabezado{
+height:180px;
+	
+}
+
+.lema{
+color:#f2050b;	
+text-align:right;
+font-weight:bold;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+.lema2{
+color:white;	
+text-align:right;
+font-weight:bold;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+.boton{
+width:300px;	
+}
+
+.rec{
+width:120px;
+height:90px;	
+}
+
+.sub-en{
+color:#f2050b;
+padding:2%;	
+}
+
+.hist{
+color:#f2050b;
+text-decoration:none;	
+}
+
+ul{
+list-style:none;	
+}
+
+li{
+margin-top:3%;	
+}
+
+.come{
+width:30%;
+}
+
+.receta{
+background:#B8C4FF;	
+	
+}
+
+.img-princ{
+width:95%;	
+}
+.callout{
+width:95%;	
+}
+
+p{
+padding:2%;	
+}
+
+.ing{
+padding:2%;	
+}
+
+.ing-enc{
+padding:2%;	
+}
+
+h1{
+padding:2%;	
+}
+
+.lateral{
+background:#B8C4FF;		
+}
+
+.footer{
+margin-top:330%;
+background:#f2050b;
+color:white;
+height:200px;
+text-align:center;	
+}
+
+  /*version movil*/
+
+ @media (max-width:599px){
+.footer{
+margin-top:980%;
+background:#f2050b;
+color:white;
+height:200px;
+text-align:center;	
+}
+ .lateral{
+  display:none; 
+ } 
+ }
